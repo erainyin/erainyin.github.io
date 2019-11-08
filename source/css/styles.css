@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* 初始化 */
+@import url("normalize.css");
+@import url("webfont.css");
+@import url('https://fonts.font.im/css?family=Montserrat:300,400,500,600');
+
+body{
+  background: #222;
+  color:#fff;
+  position: relative;
+  font-family: 'Montserrat';
+}
+.container{
+  text-align: center;
+}
+.pagetitle{
+  font-size:36px;
+  line-height: 36px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.entrance-box{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom:15px;
+}
+.entrance-box a{
+  font-size: 24px;
+  font-weight:500;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 28px;
+  background: rgba(17,17,17,.8);
+  /* border: rgba(255,255,255,.2) 1px solid; */
+  color: #fff;
+  margin: auto;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.entrance-box a:hover{
+  background: rgba(17,17,17,.5);
+  color: #fff;
+
+}
+
+.footer{
+  text-align: center;
+  margin-top: 20px;
+  font-size:12px;
+  font-weight: lighter;
+
+}
+
+.footer em{
+  font-style: normal;
+  padding:5px 10px;
+  height: 30px;
+  line-height: 30px;
+  font-weight:400;
+  color:#666;
+}
+
+/* 小屏幕（平板，大于等于 758px） */
+@media (min-width: 768px) {
+  .pagetitle{
+    font-size:60px;
+    line-height: 60px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .entrance-box a{
+    background: rgba(0,0,0,.05);
+    color: rgba(255,255,255,.8);
+    /*line-height: 300px;*/
+    font-size:36px;
+    line-height: 36px;
+    padding: 30px 0;
+  }
+
+  .footer{
+    margin-top: 80px;
+  }
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+  .pagetitle{
+    font-size:60px;
+    line-height: 60px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .entrance-box a{
+    background: rgba(0,0,0,.05);
+    color: rgba(255,255,255,.8);
+    /*line-height: 300px;*/
+    font-size:36px;
+    line-height: 36px;
+    padding: 30px 0;
+  }
+
+  .footer{
+    margin-top: 80px;
+  }
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .pagetitle{
+    font-size:60px;
+    line-height: 60px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .entrance-box a{
+    background: rgba(0,0,0,.05);
+    color: rgba(255,255,255,.8);
+    /*line-height: 300px;*/
+    font-size:36px;
+    line-height: 36px;
+    padding: 30px 0;
+  }
+
+  .footer{
+    margin-top: 80px;
+  }
+
+}
